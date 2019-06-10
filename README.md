@@ -1,5 +1,5 @@
 # Chuangzhi and MLU 100
-Chuangzhi edge server is a new high-performance artificial intelligence (AI) platform for edge computing applications, the application domain of Chuangzhi edge server mainly focus on robotics, self-driving cars, and smart cities. A dedicated Machine Learning Unit (MLU) -- Cambricon 100 is deployed on the server to accelerate the speed of inference progress, Cambricon 100 is designed by Cambricon Technologies Corp, it is a cloud-based AI chip designed for data center workloads.
+ChuangZhi edge server concentrates on providing high-performance artificial intelligence platform for edge computing. This server equips a Deep Learning accelerators called Cambricon 100, which is designed by Cambricon Technologies Co. Ltd. Cambricon 100 focus on solving demands of Cloud platform. With high throughput, Cambricon 100 has excellent performance when dealing with high-load operations. When deploying Cambricon 100 into edge computing, Cambricon 100 leaves a few to be improved in inference latency. Overall, as a powerful Deep Learning accelerator, Cambricon 100 satisfies most of the application scenarios.
 
 # Run inference
 ## unzip cambricon model
