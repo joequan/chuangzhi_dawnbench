@@ -1,5 +1,11 @@
 # chuangzhi_dawnbench
-''' python
+## unzip cambricon model
+```
+unzip mlu_int8_resnet50_batch1_mp16_CNML_CPU_MLU_BALANCE_fusion_1.cambricon.zip 
+```
+
+## run inference
+```
 ./clas_offline_multicore_pipe \
 -offlinemodel mlu_int8_resnet50_batch1_mp16_CNML_CPU_MLU_BALANCE_fusion_1.cambricon \
 -data_parallelism 1 \
@@ -16,4 +22,4 @@
 -normalize 0 \
 -mean_value 123.68,116.779,103.939 \
 -stdt_value 58.393,57.12,57.375
-'''
+```
